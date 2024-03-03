@@ -1,0 +1,47 @@
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px; 
+    padding: 50px; 
+  }
+  .form-box div{
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+  }
+  .form-box input{
+    width: 360px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  button{
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 128px;
+  }
+  .error {
+    color: red;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+    }
+    .success {
+      color: green;
+      font-family: Inter;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: left;
+      margin-left: 10px;
+      padding: 10px;
+    }
